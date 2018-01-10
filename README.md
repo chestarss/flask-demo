@@ -1,9 +1,10 @@
-# 核心思想
+## 核心思想
 *controller* 和 *model* 在定义时均没有绑定任何配置数据
+<p>
 所有的配置都是在flask app创建之后调用init_api 和 init_db关联 flsak和restful api和sqlalchemy db的,这样做的好处就是可以复用model，而不需要依赖app
+</p>
 
-
-# 文件结构
+## 文件结构
 <pre><code>
 ├── app.py
 ├── config
@@ -25,6 +26,8 @@
 └── runserver.py
 </code></pre>
 
-# 启动
+## 启动
+<pre><code>
 pip install -r requirement.txt
 python runserver.py
+</code></pre>
