@@ -31,3 +31,11 @@
 pip install -r requirement.txt
 python runserver.py
 </code></pre>
+
+##扩展
+<p>
+todo:
+权限控制:Flask-RBAC
+登录：Flask-Login
+任务执行框架:celery  定时任务，异步执行，并发执行
+</p>
